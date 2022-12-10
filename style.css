@@ -9,3 +9,6 @@ body {
   .navbar-brand {
     color: black;
   }
+  .btn{
+    background-color: gray;
+  }
