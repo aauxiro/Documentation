@@ -8,7 +8,6 @@ let descr = document.querySelector(
 let image = document.querySelector("#Image");
 let btnAdd = document.querySelector("#btn-add");
 
-console.log(title);
 
 let list = document.querySelector(
   "#products-list"
