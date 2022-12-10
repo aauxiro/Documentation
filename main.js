@@ -79,7 +79,7 @@ btnAdd.addEventListener(
 render();
 async function render() {
   let products = await fetch(
-    `${API}?q=${searchVal}&_page=${currentPage}&_limit=3`
+    `${API}?q=${searchVal}&_page=${currentPage}&_limit=2`
   )
     .then((res) => res.json())
     .catch((err) => console.log(err));
